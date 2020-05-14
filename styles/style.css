@@ -311,23 +311,20 @@
   font-weight: normal;
 }
 
-.footer__pic {
-  align-self: flex-end;
-  width: 16px;
-  height: 16px;
-  margin: 0 10px 0 0;
+.footer__link-decore-yes {
+  color: white;
+  text-decoration: none;
 }
 
-
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
 
 /* Общие стили (для миксов) */
 
 .link-decore-none {
-  text-decoration: none;
-}
-
-.link-decore-yes {
-  color: white;
   text-decoration: none;
 }
 
