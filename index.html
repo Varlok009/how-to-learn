@@ -10,6 +10,10 @@
 <body>
   <div class="page">
 
+    <!-- "Вы хорошо справились с БЭМ подходом." - исходя из количества замечаний, я не уверен :)
+    спасибо за дополнительные разъяснения по поводу БЭМа, похоже нужно больше практиковаться,
+    что бы точнее оценивать когда и как использовать модификаторы-->
+
     <!-- Блок header -->
     <header class="header">
 
@@ -41,10 +45,10 @@
       <!-- Блок description -->
       <section class="description">
         <div class="two-columns">
-          <div class="two-columns__brief">
-            <a class="two-columns__link" href="https://habr.com/ru/sandbox/58671/">Главные проблемы в обучении</a>
-          </div>
-          <article class="two-columns__main-text">
+
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+
+          <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы
                 готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,
@@ -60,64 +64,63 @@
                 сделать его эффективным и захватывающим. Эти же техники применяются на
                 примере обучения в Практикуме.
             </p>
-          </article>
+          </div>
         </div>
       </section>
 
       <!-- Блок digits -->
       <section class="digits">
-        <h2 class="section-title text-bold-m">Цифры и факты</h2>
-        <h3 class="section-subtitle section-subtitle_margin_vertical text-normal-m">Про учёбу и мозг</h3>
+        <h2 class="section-title">Цифры и факты</h2>
+        <p class="section-subtitle">Про учёбу и мозг</p>
 
         <div class="table">
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">86 миллиардов</h4>
-            <p class="table__text text-normal-s">Число нейронов в мозге человека</p>
+            <h3 class="table__heading">86 миллиардов</h3>
+            <p class="table__text">Число нейронов в мозге человека</p>
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">2,1 миллиарда</h4>
-            <p class="table__text text-normal-s">Число нуждающихся в повышении квалификации<br class="new-br">
-                                                  <br class="new-br">Всемирный Банк, 2017
-            </p>
+            <h3 class="table__heading">2,1 миллиарда</h3>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">1000 терабайт</h4>
-            <p class="table__text text-normal-s">Объем памяти человека</p>
+            <h3 class="table__heading">1000 терабайт</h3>
+            <p class="table__text">Объем памяти человека</p>
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">500 триллионов</h4>
-            <p class="table__text text-normal-s">Число отвественных за обучение нервных синамсов
+            <h3 class="table__heading">500 триллионов</h3>
+            <p class="table__text">Число отвественных за обучение нервных синамсов
                                                    у взрослого человека
             </p>
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">420 миллионов</h4>
-            <p class="table__text text-normal-s">Число взрослых людей моложе 25 лет, не имеющих
-                                                  образования для трудоустройства<br class="new-br">
-                                                  <br class="new-br">Всемирный Банк, 2017
+            <h3 class="table__heading">420 миллионов</h3>
+            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих
+                                   образования для трудоустройства</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+          </article>
+
+          <article class="table__cell">
+            <h3 class="table__heading">17-20 лет</h3>
+            <p class="table__text">Пик обучаемости
             </p>
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">17-20 лет</h4>
-            <p class="table__text text-normal-s">Пик обучаемости
+            <h3 class="table__heading">1885 год</h3>
+            <p class="table__text">Открытие кривой забывания
             </p>
           </article>
 
           <article class="table__cell">
-            <h4 class="table__heading text-bold-s">1885 год</h4>
-            <p class="table__text text-normal-s">Открытие кривой забывания
-            </p>
-          </article>
-
-          <article class="table__cell">
-            <h4 class="table__heading text-bold-s">1889 год</h4>
-            <p class="table__text text-normal-s">Открытие условного рефлекса
+            <h3 class="table__heading">1889 год</h3>
+            <p class="table__text">Открытие условного рефлекса
             </p>
           </article>
 
@@ -128,68 +131,68 @@
       <section class="feynman" id="feyman">
 
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="https://lifehacker.ru/metod-fejnmana/">Подробнее &rarr;</a>
 
       </section>
 
       <!-- Блок kaufman -->
       <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark text-bold-m">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark section-subtitle_margin_vertical text-normal-m">от Джоша Кауфмана</h3>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <p class="section-subtitle section-subtitle_theme_dark ">от Джоша Кауфмана</p>
 
-        <div class="table table__theme_dark">
+        <div class="table table_theme_dark">
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">1</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Выберите привлекательный проект.</p>
+            <h3 class="table__heading table__heading_theme_dark ">1</h3>
+            <p class="table__text table__text_theme_dark ">Выберите привлекательный проект.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">2</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Сосредоточьтесь на каком-то одном навыке.</p>
+            <h3 class="table__heading table__heading_theme_dark">2</h3>
+            <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">3</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Определите целевой уровень мастерства.</p>
+            <h3 class="table__heading table__heading_theme_dark">3</h3>
+            <p class="table__text table__text_theme_dark">Определите целевой уровень мастерства.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">4</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Разбейте навык на элементы.</p>
+            <h3 class="table__heading table__heading_theme_dark">4</h3>
+            <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">5</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Приготовьте всё необходимое для занятий.</p>
+            <h3 class="table__heading table__heading_theme_dark">5</h3>
+            <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">6</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Устраните препятствия для занятий.</p>
+            <h3 class="table__heading table__heading_theme_dark">6</h3>
+            <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">7</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Выделите специальное время для занятий.</p>
+            <h3 class="table__heading table__heading_theme_dark">7</h3>
+            <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">8</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Создайте быстрыепетли обратной связи.</p>
+            <h3 class="table__heading table__heading_theme_dark">8</h3>
+            <p class="table__text table__text_theme_dark">Создайте быстрыепетли обратной связи.</p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">9</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Занимайтесь по расписанию, короткими
+            <h3 class="table__heading table__heading_theme_dark">9</h3>
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими
                                                  интенсивными интервалами.
             </p>
           </article>
 
           <article class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__heading_theme_dark text-bold-s">10</h4>
-            <p class="table__text table__text_theme_dark text-normal-s">Уделяйте внимание количеству и скорости.</p>
+            <h3 class="table__heading table__heading_theme_dark">10</h3>
+            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </article>
 
         </div>
@@ -202,38 +205,38 @@
     <footer class="footer">
       <div class="footer__column">
 
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__autor">&copy; 2020 Nikita Kuchin</p>
         </div>
 
-        <div class="footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
-          <ul class="footer__column-links list">
-            <li class="footer__link"><a class="page__link_place_footer" href="https://praktikum.yandex.ru/">Главная</a></li>
-            <li class="footer__link"><a class="page__link_place_footer" href="https://praktikum.yandex.ru/web">Концепция</a></li>
-            <li class="footer__link"><a class="page__link_place_footer" href="https://yandex.ru/support/praktikum/mentors.html">Наставники</a></li>
+          <ul class="footer__column-links">
+            <li class="footer__list-item"><a class="footer__column-link" href="https://praktikum.yandex.ru/">Главная</a></li>
+            <li class="footer__list-item"><a class="footer__column-link" href="https://praktikum.yandex.ru/web">Концепция</a></li>
+            <li class="footer__list-item"><a class="footer__column-link" href="https://yandex.ru/support/praktikum/mentors.html">Наставники</a></li>
           </ul>
-        </div>
+        </nav>
 
-        <div class="footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
-          <ul class="footer__column-links list">
-            <li class="footer__link"><a class="page__link_place_footer" href="https://facebook.com/yandex.praktikum/">
+          <ul class="footer__column-links">
+            <li class="footer__list-item"><a class="footer__column-link" href="https://facebook.com/yandex.praktikum/">
               <img  class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">
               Facebook
             </a></li>
-            <li class="footer__link"><a class="page__link_place_footer" href="https://vk.com/yandex.praktikum">
+            <li class="footer__list-item"><a class="footer__column-link" href="https://vk.com/yandex.praktikum">
               <img  class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">
               ВКонтакте
             </a></li>
-            <li class="footer__link"><a class="page__link_place_footer" href="https://www.instagram.com/yndx.praktikum/">
+            <li class="footer__list-item"><a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum/">
               <img  class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">
               Instagram
             </a></li>
           </ul>
 
-        </div>
+        </nav>
 
       </div>
     </footer>
