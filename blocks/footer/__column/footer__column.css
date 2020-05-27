@@ -1,0 +1,9 @@
+
+.footer__column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  /* background-color: rebeccapurple; */
+  color: white;
+}

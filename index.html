@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -36,7 +35,7 @@
       <img  class="header__main-illustration" src="./images/header-image.png" alt="Снова двойка">
 
       <!-- Элемент square-pic -->
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <!-- Основной контент страницы -->
@@ -68,10 +67,57 @@
         </div>
       </section>
 
+      <!-- Блок techniques -->
+      <section class="techniques techniques_position_horizontal-center">
+
+        <h2 class="section-title techniques__title">Техники обучения</h2>
+        <p class="section-subtitle techniques__subtitle">Пять практик от Барбары Оакли</p>
+        <div class="cards">
+
+          <article class="cards__item">
+            <img src="./images/cards-attention.png" alt="Внимание" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать
+                                          сфокусированное и рассеянное мышление.
+            </p>
+          </article>
+          <article class="cards__item">
+            <img src="./images/cards-recall.png" alt="Воспоминание" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное - это позволит
+                                          соединить разрозненные порции памяти.
+            </p>
+          </article>
+          <article class="cards__item">
+            <img src="./images/cards-interliving.png" alt="Одновременность" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно,
+                                          они обогащают друг друга.
+            </p>
+          </article>
+          <article class="cards__item">
+            <img src="./images/cards-question.png" alt="Вопросы" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший
+                                          вопрос, который вас действительно волнует.
+            </p>
+          </article>
+          <article class="cards__item">
+            <img src="./images/cards-competence.png" alt="Компетентность" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторяйте про себя, запишите, расскажите другу:
+                                          вам только кажется, что вы владеете новой темой.
+            </p>
+          </article>
+
+        </div>
+
+      </section>
+
       <!-- Блок digits -->
       <section class="digits">
-        <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle">Про учёбу и мозг</p>
+        <h2 class="section-title digits__title">Цифры и факты</h2>
+        <p class="section-subtitle digits__subtitle">Про учёбу и мозг</p>
 
         <div class="table">
 
@@ -138,8 +184,8 @@
 
       <!-- Блок kaufman -->
       <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <p class="section-subtitle section-subtitle_theme_dark ">от Джоша Кауфмана</p>
+        <h2 class="section-title kaufman__title section-title_theme_dark">Принципы обучения</h2>
+        <p class="section-subtitle kaufman__subtitle section-subtitle_theme_dark ">от Джоша Кауфмана</p>
 
         <div class="table table_theme_dark">
 
@@ -184,6 +230,7 @@
           </article>
 
           <article class="table__cell table__cell_theme_dark">
+
             <h3 class="table__heading table__heading_theme_dark">9</h3>
             <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими
                                                  интенсивными интервалами.
@@ -197,7 +244,7 @@
 
         </div>
 
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
     </main>

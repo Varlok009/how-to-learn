@@ -1,0 +1,11 @@
+@import url(./__title/techniques__title.css);
+@import url(./__subtitle/techniques__subtitle.css);
+@import url(./_position/techniques_position_horizontal-center.css);
+
+.techniques {
+  width: 80%;
+  padding: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
