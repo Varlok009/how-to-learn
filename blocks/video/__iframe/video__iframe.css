@@ -1,0 +1,9 @@
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:not(:nth-of-type(1)) {
+  margin-left: 20px;
+}

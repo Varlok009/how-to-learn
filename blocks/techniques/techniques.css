@@ -3,7 +3,6 @@
 @import url(./_position/techniques_position_horizontal-center.css);
 
 .techniques {
-  width: 80%;
   padding: 100px 0 0 0;
   display: flex;
   flex-direction: column;
