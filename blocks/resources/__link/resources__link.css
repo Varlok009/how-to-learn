@@ -5,4 +5,10 @@
   width: 270px;
   height: 38px;
   align-items: center;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
 }

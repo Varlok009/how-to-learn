@@ -3,6 +3,8 @@
   width: 515px;
   height: 316px;
   border: none;
+  /* width: 720px;
+  height: 405px; */
 }
 
 .video__iframe:not(:nth-of-type(1)) {
